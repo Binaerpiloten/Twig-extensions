@@ -8,6 +8,7 @@ Twig Extensions
     text
     i18n
     number
+    browser
 
 The Twig Extensions repository provides several useful extensions for Twig:
 
