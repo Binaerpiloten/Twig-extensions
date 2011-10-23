@@ -33,7 +33,7 @@ class Twig_Extensions_Extension_Number extends Twig_Extension
     }
 }
 
-function twig_number_filter($number, $decimals = 0, $dec_point = '.', $thousands_sep = ',')
+function twig_number_filter($number, $decimals = 0, $dec_point = ',', $thousands_sep = '')
 {
     return number_format($number, $decimals, $dec_point, $thousands_sep);
 }
